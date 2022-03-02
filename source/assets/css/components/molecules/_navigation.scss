@@ -2,22 +2,31 @@
 
 .navigation {
 
+  padding-top: 80px;
+
   &__list {
 
     list-style: none;
     padding: 0;
     display: flex;
+    justify-content: center;
 
   }
   &__el {
 
-    padding: 20px;
+    margin-right: 80px;
+
+    &:last-child {
+
+      margin-right: 0;
+
+    }
 
     & a {
 
-      color: $secondary;
+      color: black;
       text-decoration: none;
-      font-family: sans-serif;
+      font-family: 'Outfit', sans-serif;
 
     }
 

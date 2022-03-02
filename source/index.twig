@@ -2,8 +2,14 @@
 
 {% block content %}
 
-    {% include 'components/molecules/navigation.twig' %}
+    <div class="hero">
+        {% include 'components/molecules/navigation.twig' %}
 
-    <h1>Home</h1>
+        <h1>Feature Artworks</h1>
+    </div>
+
+    {% include 'components/organisms/list-artworks.twig' %}
+
+    {% include 'components/molecules/filter.twig' %}
 
 {% endblock %}
